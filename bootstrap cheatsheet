@@ -1,0 +1,7 @@
+Installation
+- To Install directly download files from here: https://getbootstrap.com/docs/5.0/getting-started/download/
+- Link to css/bootstrap.css and js/bootstrap.js
+- TIP: To open the console: press Ctr+Shift+I
+- To check whether bootstrap has loaded, go to the network tab after the above step. 
+- To install all dependencies at once, load js/bootstrap.bundle.js
+- 
