@@ -4,4 +4,72 @@ Installation
 - TIP: To open the console: press Ctr+Shift+I
 - To check whether bootstrap has loaded, go to the network tab after the above step. 
 - To install all dependencies at once, load js/bootstrap.bundle.js
+
+Install Via CDN
+-Link to get CDN: https://getbootstrap.com/docs/5.0/getting-started/download/
+
+The Js file can be installed while bundled or not bundled. 
+
+========BOOTSTRAP GRID=========
+To check how the display looks like in different devices change the device options on the console
+-using GRID, you can make some sections visible or invisible depending on the screen size or make them completely disappear. 
+-Check the different breakpoints for the different screen sizes here (Under docs, layout): https://getbootstrap.com/docs/5.0/layout/breakpoints/
+- Bootstrap uses rows and columns. 
+- In every row, there are 12 units available for use. 
+- We have three things when defining our grid system: container, row, column. 
+
+
+Some common classes. 
+- border - for bordering your content. 
+- container-fluid:  If you want the websites content to span to the full width of the website. 
+- container-md: The container behaves as container, below md breakpoint, it works as container fluid. 
+- When using the col class, if size is not specified, then bootstrap divides the columns in that row equally
+-   col-5, col-3 the third columns will automatically be 4 units
+- col-lg-8 --The columns can be matched.  
 - 
+
+# ALIGNMENT
+# vertical alignment: (first wrap your columns in a row, give the row some height)
+ we use this class: align-items-(start,center,end)
+
+# Horizontal alignment: 
+We use this class to center items horizontally: justify-content-center.
+
+NB: the classes for alignment are put alongside the rwo class.
+
+
+# GUTTERS
+Note that gutters only apply to  divs with row class .
+gx - eliminates padding in the x axis, hence eliminating spaces left between the columns and the end of the screen. 
+gy - varying this varies top - vertical spacing between rows.  
+The above can take values 1-5. 
+
+gx-1, gx-2, gy-4, gy-5.
+
+
+<!-- buttons -->
+- buttons take the btn class,then btn-color(color might be primary,secodary,success,info etc)
+- to adjust size of the btn, we use the add the following classes: btn-sm, btn-lg,  
+
+<!-- Cards -->
+- from bootstrap documentation, copy the example card
+- for different sizing, remove the style attribute from the card parent div, use one of the following concepts to size the card: 
+        - row columns concept to size the cards by wrapping the card div inside. 
+        - wrapp the card in the row, in the card div, specify class w-50 (for 50% width card), w-75, etc. 
+        - style the card by specifying the width using the style attribute. 
+
+- We also can use cards to produce well bordered text with padding
+
+- We can also have a card-header before the card-body clas
+- We can also have a card-footer, with text-muted or without text-muted. 
+
+<!-- ======more examples on cards -->
+- we can use card-group for cards next to each other. 
+- We can also use card-deck for cards next to each other but with some margins in between them
+- The above should be wrapped with a row class. 
+- the are also card styles and outline styles. 
+
+<!-- typography -->
+we use h1 to h6 html tags. 
+These tags are responsive. their font sizes change with size of the screen. 
+- we can also use h1 class in other html elements to make them look like headings. 
