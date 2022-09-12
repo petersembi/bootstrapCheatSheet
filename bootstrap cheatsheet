@@ -73,3 +73,38 @@ gx-1, gx-2, gy-4, gy-5.
 we use h1 to h6 html tags. 
 These tags are responsive. their font sizes change with size of the screen. 
 - we can also use h1 class in other html elements to make them look like headings. 
+- text-start, text-center, text-end
+<!-- Images -->
+- To make an image responsive/fit in a div, we use the class img-fluid
+- the img-thumbnail class adds a border aroung the image
+- 
+
+<!-- Aligning Images -->
+- class float-end pushes the image to the far left of the container. 
+- Use the clearfix property before float-end so that the image is not wrapped around by text. 
+
+<!-- utilities -->
+- mt-5 - for margin, specify the side and the size. size varies from 1-5. 
+- border class: adds a border
+- border-5: to specify thickness of the border. 
+- border-dark: to specify the color of the border. 
+
+Background - you can also specify different opacities for the backgrounds. 
+width - w-50, w-25: w-50 : Width is 50%.
+Centering a div: mx-auto
+
+padding
+      class  ps-5: padding start 5, gives a padding-left. 
+       class  pe-5: padding end 5, gives a padding-right. 
+        class px-5: gives padding for both right and left. 
+        class p-5: gives a padding at all sides
+        class py-5: gives padding for both top and bottom. 
+        class pb-5: for bottom
+        class pt-5: apply for the top.
+
+        The above applies for margins. 
+
+Display
+        d-none: Makes a particular element not visible. 
+        One can specify the screen size for it to be visible and when it should be invisible. e.g d-none d-md-block  shows the element only for medium screen sizes and above
+<!--  -->
