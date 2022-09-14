@@ -107,4 +107,35 @@ padding
 Display
         d-none: Makes a particular element not visible. 
         One can specify the screen size for it to be visible and when it should be invisible. e.g d-none d-md-block  shows the element only for medium screen sizes and above
-<!--  -->
+
+<!--  FLEX -->
+- To start with; we give the container a d-flex class. 
+- To set the direction we use the class flex-row, flex-column
+- check the rest in documentation. Make reference to the css flexbox tutorial. (freecodecamp)
+
+<!-- FLOAT UTILITY -->
+- One can float start, end
+- float can be applied for different screen sizes. 
+
+<!--  overflow -->
+overflow-auto: one is able to scroll if text exceeds an space for an element with fixed width and height dimensions. 
+overflow-hidden: Only text that fits is visible. the rest is not seen.
+overflow-visible: the text overflows the dimensions of an element.
+
+<!-- positions -->
+main classes include position-static, position-relative, position-absolute, position-fixed, position-sticky
+
+
+top - for the vertical top position
+start - for the horizontal left position (in LTR)
+bottom - for the vertical bottom position
+end - for the horizontal right position (in LTR)
+
+0 - for 0 edge position
+50 - for 50% edge position
+100 - for 100% edge position
+
+- check documentation for examples
+
+
+
